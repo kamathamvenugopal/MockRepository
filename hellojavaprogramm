@@ -1,5 +1,7 @@
 public class MyFirstJavaProgram {
 
    public static void main(String []args) {
-      System.out.println("Hello World");
+      Scanner sc=new Scanner (System.in);
+      String wish=sc.nect();
+      System.out.println("Hello "+wish);
    }
